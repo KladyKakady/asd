@@ -1,0 +1,230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000C8 /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000064 /* GreetingsApp.swift */; };
+		0000000000000000000000C9 /* Models/Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000065 /* Models/Holiday.swift */; };
+		0000000000000000000000CA /* Services/Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000066 /* Services/Preferences.swift */; };
+		0000000000000000000000CB /* ViewModels/FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000067 /* ViewModels/FavoritesViewModel.swift */; };
+		0000000000000000000000CC /* ViewModels/GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000068 /* ViewModels/GreetingViewModel.swift */; };
+		0000000000000000000000CD /* Views/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000069 /* Views/HomeView.swift */; };
+		0000000000000000000000CE /* Views/ToastModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006A /* Views/ToastModifier.swift */; };
+		0000000000000000000000CF /* Views/GreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006B /* Views/GreetingView.swift */; };
+		0000000000000000000000D0 /* Views/FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006C /* Views/FavoritesView.swift */; };
+		0000000000000000000000D1 /* Views/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006D /* Views/SettingsView.swift */; };
+		0000000000000000000000D2 /* Services/HolidayCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000000006E /* Services/HolidayCatalog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000000005 /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000064 /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
+		000000000000000000000065 /* Models/Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Holiday.swift; sourceTree = "<group>"; };
+		000000000000000000000066 /* Services/Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/Preferences.swift; sourceTree = "<group>"; };
+		000000000000000000000067 /* ViewModels/FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/FavoritesViewModel.swift; sourceTree = "<group>"; };
+		000000000000000000000068 /* ViewModels/GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/GreetingViewModel.swift; sourceTree = "<group>"; };
+		000000000000000000000069 /* Views/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/HomeView.swift; sourceTree = "<group>"; };
+		00000000000000000000006A /* Views/ToastModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ToastModifier.swift; sourceTree = "<group>"; };
+		00000000000000000000006B /* Views/GreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/GreetingView.swift; sourceTree = "<group>"; };
+		00000000000000000000006C /* Views/FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/FavoritesView.swift; sourceTree = "<group>"; };
+		00000000000000000000006D /* Views/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		00000000000000000000006E /* Services/HolidayCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/HolidayCatalog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		000000000000000000000007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000002 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000064 /* GreetingsApp.swift */,
+				000000000000000000000065 /* Models/Holiday.swift */,
+				000000000000000000000066 /* Services/Preferences.swift */,
+				000000000000000000000067 /* ViewModels/FavoritesViewModel.swift */,
+				000000000000000000000068 /* ViewModels/GreetingViewModel.swift */,
+				000000000000000000000069 /* Views/HomeView.swift */,
+				00000000000000000000006A /* Views/ToastModifier.swift */,
+				00000000000000000000006B /* Views/GreetingView.swift */,
+				00000000000000000000006C /* Views/FavoritesView.swift */,
+				00000000000000000000006D /* Views/SettingsView.swift */,
+				00000000000000000000006E /* Services/HolidayCatalog.swift */,
+				000000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000005 /* Greetings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		000000000000000000000004 /* Greetings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000009 /* Build configuration list for PBXNativeTarget "Greetings" */;
+			buildPhases = (
+				000000000000000000000006 /* Sources */,
+				000000000000000000000007 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Greetings;
+			productName = Greetings;
+			productReference = 000000000000000000000005 /* Greetings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 000000000000000000000008 /* Build configuration list for PBXProject "Greetings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = ru;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ru,
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000002;
+			productRefGroup = 000000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000004 /* Greetings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		000000000000000000000006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000C8 /* GreetingsApp.swift in Sources */,
+				0000000000000000000000C9 /* Models/Holiday.swift in Sources */,
+				0000000000000000000000CA /* Services/Preferences.swift in Sources */,
+				0000000000000000000000CB /* ViewModels/FavoritesViewModel.swift in Sources */,
+				0000000000000000000000CC /* ViewModels/GreetingViewModel.swift in Sources */,
+				0000000000000000000000CD /* Views/HomeView.swift in Sources */,
+				0000000000000000000000CE /* Views/ToastModifier.swift in Sources */,
+				0000000000000000000000CF /* Views/GreetingView.swift in Sources */,
+				0000000000000000000000D0 /* Views/FavoritesView.swift in Sources */,
+				0000000000000000000000D1 /* Views/SettingsView.swift in Sources */,
+				0000000000000000000000D2 /* Services/HolidayCatalog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		000000000000000000000051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		00000000000000000000005A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4JDDQ99T36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Поздравления";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Greetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00000000000000000000005B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4JDDQ99T36;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Поздравления";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Greetings;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		000000000000000000000008 /* Build configuration list for PBXProject "Greetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000050 /* Debug */,
+				000000000000000000000051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000009 /* Build configuration list for PBXNativeTarget "Greetings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00000000000000000000005A /* Debug */,
+				00000000000000000000005B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000001 /* Project object */;
+}
